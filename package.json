@@ -4,7 +4,8 @@
   "description": "A simple static site generator",
   "scripts": {
     "build": "node scripts/build.js",
-    "serve": "node scripts/serve.js"
+    "serve": "node scripts/serve.js",
+    "dev": "http-server public"
   },
   "dependencies": {
     "marked": "^4.0.0",
